@@ -21,5 +21,6 @@ Build as a shared library (.so):
 1. Include 'trimalloc.h' in your project and link against the compiled library
 2. Compilation with Shared Library:
    > Windows: gcc test.c trimalloc.dll -o test.exe
+   >
    > Linux: gcc test.c ./trimalloc.so -o test
 
